@@ -1,0 +1,11 @@
+@mixin media-breakpoint-medium {
+    @media screen and (min-width: $medium-breakpoint){
+        @content;
+    }
+}
+
+@mixin media-breakpoint-large {
+    @media screen and (min-width: $large-breakpoint){
+        @content;
+    }
+}

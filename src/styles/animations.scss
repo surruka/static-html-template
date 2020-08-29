@@ -1,0 +1,48 @@
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    animation-fill-mode: both;
+}
+
+.fade-in-slow {
+    animation-name: fade-in;
+    animation-duration: 2.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+}
+
+.fade-out {
+    animation-name: fade-out;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        z-index: 0;
+    }
+    35% {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+        z-index: inherit;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+        z-index: inherit;
+    }
+    35% {
+        opacity: 0;
+    }
+    to {
+        opacity: 0;
+        z-index: -10;
+    }
+}

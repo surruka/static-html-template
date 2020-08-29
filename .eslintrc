@@ -1,0 +1,21 @@
+{
+	"parser": "babel-eslint",
+	"extends": ["airbnb"],
+	"settings": {
+		"react": {
+			"version": "999.999.999"
+		}
+	},
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"globals": {
+		"document": false
+	},
+	"rules": {
+		"linebreak-style": 0,
+		"global-require": 0,
+		"eslint linebreak-style": [0, "error", "windows"]
+	}	
+}

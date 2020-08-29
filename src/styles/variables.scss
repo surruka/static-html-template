@@ -1,0 +1,40 @@
+/* Colors */
+$white: #FCFCFC;
+
+$gray-0: #F8F9FA;
+$gray-1: #F1F3F5;
+$gray-2: #E9ECEF;
+$gray-3: #DEE2E6;
+$gray-4: #CED4DA;
+$gray-5: #ADB5BD;
+$gray-6: #868E96;
+$gray-7: #495057;
+$gray-8: #343A40;
+$gray-9: #212529;
+$info-color: #7392FF;
+$error-color: #FF7373;
+$success-color: #91FE96;
+$success-darker-color: #47D34D;
+
+/* Space */
+$size-sm: 0.25rem;
+$size-md: 0.5rem;
+$size-lg: 1rem;
+$size-xl: 1.5rem;
+$size-xxl: 2rem;
+
+$margin-sm: $size-sm;
+$margin-md: $size-md;
+$margin-lg: $size-lg;
+$margin-xl: $size-xl;
+$margin-xxl: $size-xxl;
+
+$padding-sm: $size-sm;
+$padding-md: $size-md;
+$padding-lg: $size-lg;
+$padding-xl: $size-xl;
+$padding-xxl: $size-xxl;
+
+// Breakpoints
+$medium-breakpoint: 640px;
+$large-breakpoint: 1024px;
